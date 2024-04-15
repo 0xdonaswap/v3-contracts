@@ -1,0 +1,9 @@
+{
+  "SwapRouter": "0x7151de60879EE751EC4BFdf8540Dd1d36f901849",
+  "V3Migrator": "0x90B4e42c15949Dd81562d4a97cE6DFF12c99E526",
+  "QuoterV2": "0x49b10d948375489CEcE7Be0A16f3e45DAbFF1D30",
+  "TickLens": "0x2aaD5a726fe8CA05c2FD4B2CBF7f294dF5F5e1C7",
+  "NonfungibleTokenPositionDescriptor": "0xF4170Fd940883093cF099bF60b260C4eb8ff4085",
+  "NonfungiblePositionManager": "0x2c006FbD9ccaEB531124E008D3B56eBc2bF4ACCf",
+  "DonaswapInterfaceMulticall": "0xcC58D645aDe0CeF4e84118636e0fe273C18c4C76"
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "@donaswap/eslint-config-donaswap",
+  "rules": {
+    "import/no-extraneous-dependencies": 0
+  }
+}
