@@ -39,12 +39,12 @@ export const SUPPORTED_NETWORKS = {
     gasPrice: 20000000000,
   },
   opBnb: {
-    url: "https://opbnb-mainnet-rpc.bnbchain.org",
+    url: 'https://opbnb-mainnet-rpc.bnbchain.org',
     accounts: [process.env.DEPLOYER_KEY!],
     gasPrice: 20000000000,
   },
   opBnbTestnet: {
-    url: "https://opbnb-testnet-rpc.bnbchain.org",
+    url: 'https://opbnb-testnet-rpc.bnbchain.org',
     accounts: [process.env.DEPLOYER_KEY!],
     gasPrice: 20000000000,
   },
@@ -52,9 +52,10 @@ export const SUPPORTED_NETWORKS = {
     url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     accounts: [process.env.DEPLOYER_KEY!],
   },
-  polygonMumbai: {
-    url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API_KEY}`,
+  polygonAmoy: {
+    url: `https://rpc-amoy.polygon.technology`,
     accounts: [process.env.DEPLOYER_KEY!],
+    gasPrice: 30000000000,
   },
   polygonZkevm: {
     url: `https://zkevm-rpc.com`,
@@ -183,12 +184,12 @@ export const SUPPORTED_NETWORKS = {
   pulsechain: {
     url: `https://rpc.pulsechain.com`,
     accounts: [process.env.DEPLOYER_KEY!],
-    gasPrice: 50000000000
+    gasPrice: 50000000000,
   },
   pulsechainTestnet: {
     url: `https://rpc.v4.testnet.pulsechain.com`,
     accounts: [process.env.DEPLOYER_KEY!],
-    gasPrice: 50000000000
+    gasPrice: 50000000000,
   },
   metis: {
     url: 'https://andromeda.metis.io/?owner=1088',
@@ -314,7 +315,7 @@ export const SUPPORTED_NETWORKS = {
   gnosisChiado: {
     url: `https://rpc.chiadochain.net`,
     accounts: [process.env.DEPLOYER_KEY!],
-    gasPrice: 1000000000
+    gasPrice: 1000000000,
   },
   telos: {
     url: `https://mainnet.telos.net/evm`,

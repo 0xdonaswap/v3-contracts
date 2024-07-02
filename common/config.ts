@@ -98,8 +98,8 @@ export const configs = {
     flame: '0x0000000000000000000000000000000000000000',
     smartRouterHelper: '0x3B07eA3556CE5BF50E1FA41bAE2aEa8Dbfe92202',
   },
-  polygonMumbai: {
-    WNATIVE: '0x0A094361031Ff2515bF98767Ce228e28bDd2A112',
+  polygonAmoy: {
+    WNATIVE: '0x0216a640C4d53F2a6603042d4E14A2B890efcD45',
     nativeCurrencyLabel: 'tMATIC',
     v2Factory: '0x8e5dff1c121F661971d02950698f8c5EFc3DfA78',
     stableFactory: '0x0000000000000000000000000000000000000000',
@@ -746,7 +746,7 @@ export const configs = {
     flame: '0x0000000000000000000000000000000000000000',
     smartRouterHelper: '0x0000000000000000000000000000000000000000',
   },
-    xinfinTestnet: {
+  xinfinTestnet: {
     WNATIVE: '0x35060f7803eF7763b77E4EF0082bc0bCf2654154',
     nativeCurrencyLabel: 'tXDC',
     v2Factory: '0x8e5dff1c121F661971d02950698f8c5EFc3DfA78',

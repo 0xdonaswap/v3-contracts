@@ -20,7 +20,7 @@ export default {
     goerli: 0,
     sepolia: 0,
     holesky: 0,
-    polygonMumbai: 0,
+    polygonAmoy: 0,
     polygonZkevmTestnet: 0,
     avalancheFujiTestnet: 0,
     ftmTestnet: 0,
